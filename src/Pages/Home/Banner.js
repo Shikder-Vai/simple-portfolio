@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div>
       <div class="w-full">
-        <video class="w-full" autoPlay loop muted>
+        <video class="max-w-full" autoPlay loop muted>
           <source
             src="https://mdbootstrap.com/img/video/Lines.mp4"
             type="video/mp4"
