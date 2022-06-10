@@ -1,12 +1,13 @@
 import React from "react";
+
 // import { useNavigate } from "react-router-dom";
 
 const Banner = () => {
   // const navigate = useNavigate();
   return (
     <div>
-      <div class=" float-left w-full">
-        <video class="w-full object-cover" autoPlay loop muted>
+      <div class="w-full">
+        <video class="w-full" autoPlay loop muted>
           <source
             src="https://mdbootstrap.com/img/video/Lines.mp4"
             type="video/mp4"
@@ -16,7 +17,7 @@ const Banner = () => {
           class="absolute top-0 right-0 bottom-0 left-0 w-full h-full "
           style={{ backgroundColor: "rgba(50, 123, 233, 0.1)" }}
         >
-          <div class="carousel-caption absolute top-11 sm:top-40 md:top-32 right-0 bottom-0 left-8 lg:left-14 ">
+          <div class="carousel-caption absolute top-11 sm:before:top-32 sm:top-40 md:top-28 lg:top-48 right-0 bottom-0 left-8 lg:left-14 ">
             <p>
               HI <span>&#128075;</span>THERE I'M
             </p>
@@ -32,13 +33,17 @@ const Banner = () => {
               communication and active listening skills. <br /> I am so glad to
               you are here.
             </p>
-            <button
+            <a
+              href={
+                "https://drive.google.com/file/d/1zG3DWa2s20ToiezFliaHhCTuVb-QLK64/view"
+              }
+              target={"blank"}
               // onClick={() => navigate("/resume")}
               type="button"
               class="inline-block mt-1 md:mt-3 px-6 py-2 border-2 border-blue-400 text-blue-400 font-medium text-xs leading-tight uppercase rounded-full hover:bg-blue-800 hover:bg-opacity-95 hover:text-white focus:outline-none focus:ring-0 transition duration-150 ease-in"
             >
               Download Resume
-            </button>
+            </a>
           </div>
         </div>
       </div>

@@ -92,7 +92,7 @@ navbar navbar-expand-lg navbar-light
                     class="nav-link rounded-xl  w-12 p-2 text-orange-500 hover:text-orange-700 focus:bg-gray-700 "
                     to={""}
                   >
-                    Pricing
+                    About Me
                   </Link>
                 </li>
               </ul>
