@@ -5,7 +5,7 @@ import React from "react";
 const Banner = () => {
   // const navigate = useNavigate();
   return (
-    <div>
+    <div className="">
       <div class="w-full">
         <video class="max-w-full" autoPlay loop muted>
           <source

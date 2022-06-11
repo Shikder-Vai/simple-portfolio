@@ -3,7 +3,7 @@ import "./MySkills.css";
 
 const MySkills = () => {
   return (
-    <div>
+    <div className=" relative">
       <h1
         className="text-2xl font-semibold text-white text-center 
        pt-8 font-sans"

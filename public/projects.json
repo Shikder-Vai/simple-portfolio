@@ -1,23 +1,23 @@
 [
     {
-      "id": 1,
+      "_id": 1,
       "name": "NS MOBILE HOUSE",
       "img": "https://i.ibb.co/fDRZfxt/mobile-house.png",
-      "description": "User Management Dashboard Authentication Firebase, Data Management By MongoDB & API through ExpressJS",
+      "description": "This is Warehouse Management, User Management Dashboard Authentication Firebase, Data Management By MongoDB & API through ExpressJS.",
       "url": "https://ns-mobile-house.netlify.app/"
     },
     {
-      "id": 2,
+      "_id": 2,
       "name": "HOPE LIGHT",
       "img": "https://i.ibb.co/nLg7kmK/hope-light.png",
-      "description": "Different Dashboard for Users & Admin, Authentication by Firebase, Data Management By MongoDB & API through....",
+      "description": "This is Manufacture Website, Different Dashboard for Users & Admin, Authentication by Firebase, Data Management By MongoDB & API through Express Js.",
       "url": "https://hope-light-co.web.app/"
     },
     {
-      "id": 3,
+      "_id": 3,
       "name": "AWESOME PHOTOGRAPHY",
       "img": "https://i.ibb.co/xX5By9m/awesome-photography.png",
-      "description": "UI design by React Bootstrap, Authentication By Firebase, UI & UX user friendly.",
+      "description": " This is a Independent servise provider website, UI design by React Bootstrap, Authentication By Firebase, UI & UX user friendly. Fully responsive.",
       "url": "https://awesome-photography-e3387.web.app/"
     }
   ]
