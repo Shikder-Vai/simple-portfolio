@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className=" relative">
       <nav
-        class="
+        className="
 fixed-top
 w-full
 flex flex-wrap
@@ -20,9 +20,9 @@ shadow-lg
 navbar navbar-expand-lg navbar-light
 "
       >
-        <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+        <div className="container-fluid w-full flex flex-wrap items-center justify-between px-6">
           <button
-            class="
+            className="
     navbar-toggler
     text-orange-500
     border-0
@@ -44,7 +44,7 @@ navbar navbar-expand-lg navbar-light
               focusable="false"
               data-prefix="fas"
               data-icon="bars"
-              class="w-6"
+              className="w-6"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
@@ -56,12 +56,12 @@ navbar navbar-expand-lg navbar-light
             </svg>
           </button>
           <div
-            class="collapse navbar-collapse flex-grow justify-between items-center"
+            className="collapse navbar-collapse flex-grow justify-between items-center"
             id="navbarSupportedContent"
           >
             <div>
               <Link
-                class="text-xl rounded-xl md:ml-8 font-serif font-extrabold hidden md:block w-12 p-2 text-orange-500 focus:bg-gray-700"
+                className="text-xl rounded-xl md:ml-8 font-serif font-extrabold hidden md:block w-12 p-2 text-orange-500 focus:bg-gray-700"
                 to={""}
               >
                 NS
@@ -69,27 +69,27 @@ navbar navbar-expand-lg navbar-light
             </div>
             {/* <!-- Left links --> */}
             <div>
-              <ul class="navbar-nav flex flex-col list-style-none mr-auto">
-                <li class="nav-item px-2">
+              <ul className="navbar-nav flex flex-col list-style-none mr-auto">
+                <li className="nav-item px-2">
                   <Link
                     to={"/home"}
-                    class="nav-link rounded-xl  w-12 p-2 text-orange-500 hover:text-orange-700 focus:bg-gray-700 "
+                    className="nav-link rounded-xl  w-12 p-2 text-orange-500 hover:text-orange-700 focus:bg-gray-700 "
                     aria-current="page"
                   >
                     Home
                   </Link>
                 </li>
-                <li class="nav-item pr-2">
+                <li className="nav-item pr-2">
                   <Link
-                    class="nav-link rounded-xl  w-12 p-2 text-orange-500 hover:text-orange-700 focus:bg-gray-700 "
-                    to={"/#contactMe"}
+                    className="nav-link rounded-xl  w-12 p-2 text-orange-500 hover:text-orange-700 focus:bg-gray-700 "
+                    to={"#contactMe"}
                   >
                     Contact Me
                   </Link>
                 </li>
-                <li class="nav-item pr-2">
+                <li className="nav-item pr-2">
                   <Link
-                    class="nav-link rounded-xl  w-12 p-2 text-orange-500 hover:text-orange-700 focus:bg-gray-700 "
+                    className="nav-link rounded-xl  w-12 p-2 text-orange-500 hover:text-orange-700 focus:bg-gray-700 "
                     to={""}
                   >
                     About Me

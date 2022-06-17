@@ -4,20 +4,73 @@
       "name": "NS MOBILE HOUSE",
       "img": "https://i.ibb.co/fDRZfxt/mobile-house.png",
       "description": "This is Warehouse Management, User Management Dashboard Authentication Firebase, Data Management By MongoDB & API through ExpressJS.",
-      "url": "https://ns-mobile-house.netlify.app/"
+      "features":[
+        "User Management Dashboard",
+        "Authentication By Firebase",
+        "Data Management By MongoDB",
+        "API through Express Js."
+      ],
+      "images":[
+        "https://i.ibb.co/wRK10cz/banner.png",
+        "https://i.ibb.co/tC9vPLV/product.png",
+        "https://i.ibb.co/NxV8LHy/inventory.png",
+        "https://i.ibb.co/C0jZM6M/mnageinventory.png"
+      ],
+      
+      "usedTechnologies":[
+        {"FrontEnd": ["ReactJs", "React Router", "React Hooks","Tailwind", "Firebase"]},
+        {"BackEnd": ["NodeJs(ExpressJS)", "MongoDB", "jwt","Dotenv","Nodemon", "Stripe", "Cors"]}
+      ],
+      "liveUrl": "https://ns-mobile-house.netlify.app/",
+      "clientCode": "https://github.com/Shikder-Vai/ns-mobile-house-client-side",
+      "serverCode": "https://github.com/Shikder-Vai/ns-mobile-house-server-side"
     },
     {
       "_id": 2,
       "name": "HOPE LIGHT",
       "img": "https://i.ibb.co/nLg7kmK/hope-light.png",
       "description": "This is Manufacture Website, Different Dashboard for Users & Admin, Authentication by Firebase, Data Management By MongoDB & API through Express Js.",
-      "url": "https://hope-light-co.web.app/"
+      "features":[
+        "Different Dashboard for Users & Admin",
+        "Authentication By Firebase",
+        "Data Management By MongoDB",
+        "API through Express Js."
+      ],
+      "images":[
+        "https://i.ibb.co/yPJYx0c/banner.png",
+        "https://i.ibb.co/ydMnTfd/products.png",
+        " https://i.ibb.co/TcQzm78/dashboard.png",
+        "https://i.ibb.co/jT5CT5F/summery.png"
+      ],
+      "usedTechnologies":[
+        {"FrontEnd": ["ReactJs", "React Router", "React Hooks","Tailwind", "Firebase"]},
+        {"BackEnd": ["NodeJs(ExpressJS)", "MongoDB", "jwt","Dotenv","Nodemon", "Stripe", "Cors"]}
+      ],
+      "liveUrl": "https://hope-light-co.web.app/",
+      "clientCode": "https://github.com/Shikder-Vai/hopeLight-client-side",
+      "serverCode": "https://github.com/Shikder-Vai/hopeLight-server-side"
     },
     {
       "_id": 3,
       "name": "AWESOME PHOTOGRAPHY",
       "img": "https://i.ibb.co/xX5By9m/awesome-photography.png",
       "description": " This is a Independent servise provider website, UI design by React Bootstrap, Authentication By Firebase, UI & UX user friendly. Fully responsive.",
-      "url": "https://awesome-photography-e3387.web.app/"
+      "features": [
+        "Chekout Route only for Authentic user",
+        "UI & UX user friendly. Fully responsive.",
+        "UI design by React Bootstrap",
+        "Authentication By Firebase" 
+      ],
+      "images":[
+        "https://i.ibb.co/mvzX9zg/banner.png",
+        "https://i.ibb.co/cT1HCJS/landing.png",
+        "https://i.ibb.co/12F7zPp/products.png",
+        "https://i.ibb.co/x6ByQW0/blogs.png"
+      ],
+      "usedTechnologies":[
+        {"FrontEnd": ["ReactJs", "React Router", "React Hooks","Tailwind", "Firebase"]}
+      ],
+      "liveUrl": "https://awesome-photography-e3387.web.app/",
+      "clientCode": "https://github.com/Shikder-Vai/awesome-photography"
     }
   ]

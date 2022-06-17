@@ -1,5 +1,7 @@
 import React, { useRef } from "react";
+// import { toast } from "react-toastify";
 import emailjs from "@emailjs/browser";
+import swal from "sweetalert";
 
 const Contact = () => {
   const form = useRef();
@@ -17,17 +19,19 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          swal("Send!", "Mail has been sended!", "success");
         },
         (error) => {
           console.log(error.text);
         }
       );
+
     e.target.reset();
   };
 
   return (
-    <div id="contactMe" className="flex flex-col items-center">
-      <div>
+    <div className="flex flex-col items-center">
+      <div id="contactMe">
         <h1
           className="text-2xl font-semibold text-white text-center 
         font-sans"
@@ -36,12 +40,13 @@ const Contact = () => {
         </h1>
         <div className=" h-1 bg-red-400 rounded-full"></div>
       </div>
-      <div class=" p-6 rounded-lg  w-96  max-w-md">
+      <div className=" p-6 rounded-lg  w-96  max-w-md">
         <form ref={form} onSubmit={sendEmail}>
-          <div class="form-group mb-6">
+          <div className="form-group mb-6">
             <input
+              required
               type="text"
-              class="form-control block
+              className="form-control block
         w-full
         px-3
         py-1.5
@@ -60,10 +65,11 @@ const Contact = () => {
               placeholder="Name"
             />
           </div>
-          <div class="form-group mb-6">
+          <div className="form-group mb-6">
             <input
+              required
               type="text"
-              class="form-control block
+              className="form-control block
         w-full
         px-3
         py-1.5
@@ -82,10 +88,11 @@ const Contact = () => {
               placeholder="Subject"
             />
           </div>
-          <div class="form-group mb-6">
+          <div className="form-group mb-6">
             <input
+              required
               type="email"
-              class="form-control block
+              className="form-control block
         w-full
         px-3
         py-1.5
@@ -104,9 +111,9 @@ const Contact = () => {
               placeholder="Email address"
             />
           </div>
-          <div class="form-group mb-6">
+          <div className="form-group mb-6">
             <textarea
-              class="
+              className="
         form-control
         block
         w-full
@@ -126,13 +133,14 @@ const Contact = () => {
               id="exampleFormControlTextarea13"
               rows="3"
               name="message"
+              required
               placeholder="Message"
             ></textarea>
           </div>
 
           <button
             type="submit"
-            class="
+            className="
       w-full
       px-6
       py-2.5

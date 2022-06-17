@@ -1,9 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Resume from "./Components/Resume";
+import "react-toastify/dist/ReactToastify.css";
 import Home from "./Pages/Home/Home";
 import ProjectDetails from "./Pages/Home/Projects/ProjectDetails";
 import Navbar from "./Pages/Share/Navbar";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/projectDetails/:_id" element={<ProjectDetails />} />
-        <Route path="/test" element={<Resume />} />
       </Routes>
+      <ToastContainer />
     </div>
   );
 }
