@@ -90,9 +90,9 @@ navbar navbar-expand-lg navbar-light
                 <li className="nav-item pr-2">
                   <Link
                     className="nav-link rounded-xl  w-12 p-2 text-orange-500 hover:text-orange-700 focus:bg-gray-700 "
-                    to={""}
+                    to={"/blogs"}
                   >
-                    About Me
+                    Blogs
                   </Link>
                 </li>
               </ul>

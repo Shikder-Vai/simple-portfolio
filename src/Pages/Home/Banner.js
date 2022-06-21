@@ -18,7 +18,7 @@ const Banner = () => {
           <h3 className="text-md mt-1 md:mt-5 ">
             MERN Stack Developer / Front End Development Expert
           </h3>
-          <p className=" hidden md:block">
+          <p className="">
             I am a Web developer. Hard-working programmer with clear
             communication and active listening skills. <br /> I am so glad to
             you are here.
