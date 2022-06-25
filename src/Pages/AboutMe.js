@@ -15,10 +15,12 @@ const AboutMe = () => {
         />
         <h1 className="text-2xl font-bold mb-4 "> Md Nurujjaman Shikder</h1>
         <p className="mb-6">
-          <span className="font-bold">
-            I am MERN Stack developer/Front-end expert:
-          </span>{" "}
-          I am professional web developer.
+          <span className="font-bold">Let's talk about me:</span> i completed
+          becholor of dawah in islamic studyies.after completing my study I am
+          doing programming.Since that my programming journey is go on and It's
+          will be continued.Hopefully you might be so pleasure to work, and i
+          will learn with share my experience.At last you can define me as
+          passionate coder.
         </p>
         <BackButton />
       </div>
