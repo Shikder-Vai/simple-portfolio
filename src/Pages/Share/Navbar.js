@@ -82,17 +82,17 @@ navbar navbar-expand-lg navbar-light
                 <li className="nav-item pr-2">
                   <Link
                     className="nav-link rounded-xl  w-12 p-2 text-orange-500 hover:text-orange-700 focus:bg-gray-700 "
-                    to={"/#contactMe"}
+                    to={"/blogs"}
                   >
-                    Contact Me
+                    Blogs
                   </Link>
                 </li>
                 <li className="nav-item pr-2">
                   <Link
                     className="nav-link rounded-xl  w-12 p-2 text-orange-500 hover:text-orange-700 focus:bg-gray-700 "
-                    to={"/blogs"}
+                    to={"/aboutMe"}
                   >
-                    Blogs
+                    About Me
                   </Link>
                 </li>
               </ul>

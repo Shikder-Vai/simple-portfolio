@@ -6,7 +6,7 @@ const Projects = () => {
   const [projects] = useProjects([]);
 
   return (
-    <div className="">
+    <div>
       <h1
         className="text-2xl font-semibold text-white text-center 
        pb-5 pt-6 font-sans"

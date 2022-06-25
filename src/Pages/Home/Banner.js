@@ -1,12 +1,10 @@
 import React from "react";
-
-// import { useNavigate } from "react-router-dom";
+import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
-  // const navigate = useNavigate();
   return (
-    <div className="">
-      <div className=" " style={{ backgroundColor: "rgba(50, 123, 233, 0.1)" }}>
+    <div>
+      <div style={{ backgroundColor: "rgba(50, 123, 233, 0.1)" }}>
         <div className="carousel-caption  py-20 px-14">
           <p>
             HI <span>&#128075;</span>THERE I'M
@@ -15,17 +13,30 @@ const Banner = () => {
             <span>Md Nurujjaman </span>
             <span>Shikder</span>
           </h1>
-          <h3 className="text-md mt-1 md:mt-5 ">
-            MERN Stack Developer / Front End Development Expert
+          <h3 className="text-md font-semibold mt-1 md:mt-5 ">
+            <span>
+              {/* Style will be inherited from the parent element */}
+              <Typewriter
+                words={[
+                  "MERN Stack Developer 💻 / Front End Development Expert 💕",
+                ]}
+                loop={false}
+                cursor
+                cursorStyle="_"
+                typeSpeed={80}
+                deleteSpeed={50}
+                delaySpeed={3000}
+              />
+            </span>
           </h3>
-          <p className="">
+          <p className="my-4">
             I am a Web developer. Hard-working programmer with clear
             communication and active listening skills. <br /> I am so glad to
             you are here.
           </p>
           <a
             href={
-              "https://drive.google.com/file/d/1zG3DWa2s20ToiezFliaHhCTuVb-QLK64/view"
+              "https://drive.google.com/file/d/15IeOnEJVtxLFXxMsbayAnwktFgMT1bGV/view?usp=sharing"
             }
             target={"blank"}
             // onClick={() => navigate("/resume")}

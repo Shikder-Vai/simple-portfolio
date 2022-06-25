@@ -10,15 +10,18 @@ const Project = ({ project }) => {
 
   return (
     <div className="flex justify-center">
-      <div className="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
+      <div
+        data-aos="fade-up"
+        className="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white bg-opacity-25 shadow-lg"
+      >
         <img
-          className=" w-full h-96 p-4 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
+          className=" w-full h-96 p-4 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg "
           src={img}
           alt=""
         />
         <div className="p-6 flex flex-col justify-start">
           <h5 className="text-gray-900 text-xl font-medium mb-2">{name}</h5>
-          <p className="text-gray-700 text-base mb-4">
+          <p className="text-gray-300 text-base mb-4">
             <span className="font-semibold text-lg">Short Description:</span>
             <br />
             {description}
